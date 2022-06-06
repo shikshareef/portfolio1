@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,160 +5,382 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   <style>
+@media (max-width:760px ) {
     
-    <style>
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-
-}
-.hero{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: white;
-}
-nav{
-    display: flex;
-    width: 84%;
-    margin:auto;
-    padding: 20px 0;
-    align-items: center;
-    justify-content: space-between;
-}
-nav ul li{
-    display: inline-block;
-    list-style:none;
-    margin: 10px 20px;
-
-}
-nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-nav ul li a:hover{
-    color: red;
-}
-span{
-    color: orange;
-}
-.detel{
-    margin-left: 8%;
-    margin-top: 13%;
-}
-.detel h1{
-    font-size: 50px;
-    color: #212121;
-    margin-bottom: 20px;
-
-}
-.detel p{
-    color: #555;
-    line-height: 22px;
-
-}
-.detel a{
-    background-color: #212121;
-    padding: 10px 18px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #fff;
-    display: inline-block;
-    border: 5px solid;
-    margin: 30px 0;
-    border-radius: 5px;
-}
-.images{
-    width: 45%;
-    height: 80%;
-    position: absolute;
-    bottom:0;
-    right: 100px;
-}
-.images img{
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    bottom: 0%;
-    text-replace: translatex(-50%);
-    transition: bottom 1s, left 1s;
-}
-.images:hover  .gril{
-    left: 45%;
-}
-.details{
-    margin-left: 160px;
-    border: 5px solid;
-    padding: 25px;
-    margin-right: 1200px;
-    border-radius: 1cm;
+    *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        
+        }
+        .hero{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background: white;
+        }
+        nav img{
+            height: 150px;
+            width: 150px;
     
-}
-.details h1{
-    color: orange;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.details span{
-    color: red;
-}
-.educat{
-    margin-left: 160px;
-    border: 5px solid;
-    padding: 25px;
-    margin-right: 1200px;
-    border-radius: 1cm;
-    margin-top: 150px;
+        }
+        nav{
+            display: flex;
+            width: 84%;
+            margin:auto;
+            padding: 20px 0;
+            align-items: center;
+            justify-content: space-between;
+        }
+        nav ul li{
+            display: inline-block;
+            list-style:none;
+            margin: 10px 20px;
+        
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        nav ul li a:hover{
+            color: red;
+        }
+        span{
+            color: orange;
+        }
+        .detel{
+            margin-left: 8%;
+            margin-top: 13%;
+        }
+        .detel h1{
+            margin-left:-10px ;
+            font-size: 10px;
+            color: #212121;
+            margin-bottom: 20px;
+        
+        }
+        .detel p{
+            color: #555;
+            line-height: 22px;
+            font-size: 10px;
+            margin-left: -25px;
+        
+        }
+        .detel a{
+            background-color: #212121;
+            padding: 10px 18px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #fff;
+            display: inline-block;
+            border: 5px solid;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+        .images{
+            width: 45%;
+            height: 80%;
+            position: absolute;
+            bottom:0;
+            right: 100px;
+        }
+        .images img{
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            bottom: 0%;
+            text-replace: translatex(-50%);
+            transition: bottom 1s, left 1s;
+        }
+        .images img{
+            margin-left: 100px;
+    
+        }
+        .images:hover  .gril{
+            left: 45%;
+        }
+        .details{
+            margin-left: 160px;
+            
+            padding: 25px;
+            margin-right: 12px;
+            
+            
+        }
+        .details h1{
+            color: orange;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: -100px;
+            margin-right: -100px;
+        }
+        .details li{
+            margin-left: -100px;
+            margin-right: -1000px;
+        }
+        .details span{
+            color: red;
+        }
+        .details img{
+            margin-left: -150px;
+            height: 250px;
+            width: 250px;
+        }
+        .educat{
+            margin-left: 160px;
+           
+            padding: 25px;
+            margin-right: 1200px;
+            
+            margin-top: 150px;
+        
+        }
+        .educat h1{
+            font-family: Arial, Helvetica, sans-serif;
+            color: orange;
+            margin-left: -180px;
+            margin-right: -200px;
+        }
+        .educat li{
+            margin-left: -170px;
+            margin-right: -1000px;
+            font-size: 12px;
+        }
+        .educat img{
+            margin-left: -150px;
+            height: 250px;
+            width: 250px;
+        }
+        .projec{
+            margin-left: 160px;
+            
+            padding: 25px;
+            margin-right: 1200px;
+            
+            margin-top: 150px;
+        
+        
+        }
+        .projec h1{
+            font-family: Arial, Helvetica, sans-serif;
+            color: orange;
+            margin-left: -150px;
+            margin-right: -100px;
+        }
+        .projec p{
+            margin-left: -170px;
+            margin-right: -170px;
+            font-size: 12px;
+        }
+        .projec h3{
+            margin-left: -170px;
+            margin-right: -170px;
+            font-size: 12px;
+        }
+        .projec img{
+            margin-left: -150px;
+            height: 250px;
+            width: 250px;
+        }
+        .contact{
+            margin-left: 160px;
+            
+            padding: 25px;
+            margin-right: 1200px;
+            
+            margin-top: 150px;
+      
+        }
+        .contact img{
+            margin-left: -150px;
+            height: 250px;
+            width: 250px;
+        }
+        .contact h3{
+            
+            margin-left: -150px;
+            margin-right: -100px;
+        }
+        .contact li{
+            margin-left: -170px;
+            margin-right: -170px;
+            font-size: 15px;
+        }
+    
+        
+        span{
+            color: red;
+        }
+        #eduim{
+           
+        }
+        .copyright{
+            border: 1px solid;
+            border-color: red;
+            margin-top: 100px;
+        }
+        
+        
+    }*{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    
+    }
+    .hero{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: white;
+    }
+    nav{
+        display: flex;
+        width: 84%;
+        margin:auto;
+        padding: 20px 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style:none;
+        margin: 10px 20px;
+    
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    nav ul li a:hover{
+        color: red;
+    }
+    span{
+        color: orange;
+    }
+    .detel{
+        margin-left: 8%;
+        margin-top: 13%;
+    }
+    .detel h1{
+        font-size: 50px;
+        color: #212121;
+        margin-bottom: 20px;
+    
+    }
+    .detel p{
+        color: #555;
+        line-height: 22px;
+    
+    }
+    .detel a{
+        background-color: #212121;
+        padding: 10px 18px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+        display: inline-block;
+        border: 5px solid;
+        margin: 30px 0;
+        border-radius: 5px;
+    }
+    .images{
+        width: 45%;
+        height: 80%;
+        position: absolute;
+        bottom:0;
+        right: 100px;
+    }
+    .images img{
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0%;
+        text-replace: translatex(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .images:hover  .gril{
+        left: 45%;
+    }
+    .details{
+        margin-left: 160px;
+       
+        padding: 25px;
+        margin-right: 1200px;
+       
+        
+    }
+    .details h1{
+        color: orange;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .details span{
+        color: red;
+    }
+    .educat{
+        margin-left: 160px;
+        
+        padding: 25px;
+        margin-right: 1200px;
+        
+        margin-top: 150px;
+    
+    }
+    .educat h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: orange;
+    }
+    .projec{
+        margin-left: 160px;
+        
+        padding: 25px;
+        margin-right: 1200px;
+        
+        margin-top: 150px;
+    
+    
+    }
+    .projec h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: orange;
+    }
+    .contact{
+        margin-left: 160px;
+       
+        padding: 25px;
+        margin-right: 1200px;
+        
+        margin-top: 150px;
+    
+    }
+    span{
+        color: red;
+    }
+    #eduim{
+       
+    }
+    .copyright{
+        border: 1px solid;
+        border-color: red;
+        margin-top: 100px;
+    }
+    
 
-}
-.educat h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: orange;
-}
-.projec{
-    margin-left: 160px;
-    border: 5px solid;
-    padding: 25px;
-    margin-right: 1200px;
-    border-radius: 1cm;
-    margin-top: 150px;
 
 
-}
-.projec h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: orange;
-}
-.contact{
-    margin-left: 160px;
-    border: 5px solid;
-    padding: 25px;
-    margin-right: 1200px;
-    border-radius: 1cm;
-    margin-top: 150px;
-
-}
-span{
-    color: red;
-}
-#eduim{
-   
-}
-.copyright{
-    border: 1px solid;
-    border-color: red;
-    margin-top: 100px;
-}
+   </style>
+    
 
 
 
-    </style>
+
+    
 </head>
 <body>
     <div class="hero">
         <nav>
-            <img src="—Pngtree—team logo psd material_1649194.png" width="300" alt="" class="logo">
+            <img src="img/—Pngtree—team logo psd material_1649194.png" width="300" alt="" class="logo">
             <ul>
                 <li><a href="0">HOME</a></li>
                 <li><a href="0">ABOUT</a></li>
@@ -177,14 +398,14 @@ span{
            <a href="0">DOWNLOAD CV</a>
        </div>
        <div class="images">
-           <img src="118-1183053_orange-hexagon-png-background-transparent-geometric-shapes.png" class="shape" alt="">
-           <img src="Man-PNG-Image.png" class="girl">
+           <img src="img/118-1183053_orange-hexagon-png-background-transparent-geometric-shapes.png" class="shape" alt="">
+           <img src="img/Man-PNG-Image.png" class="girl">
            
        </div>
     </div>
     <div class="details">
         <div>
-            <img  height="300" src="neathlemon's Photos, Drawings and Gif Saved Stickers.jpg" alt="">
+            <img  height="300" src="img/neathlemon's Photos, Drawings and Gif Saved Stickers.jpg" alt="">
         </div>
         <h1>MY DETAILS</h1>
         <ol id="personal">
@@ -200,7 +421,7 @@ span{
         
     </div>
     <div class="educat">
-        <div id="eduim"><img height="400" src="—Pngtree—education logo vector image_4092977.png" alt="" ></div>
+        <div id="eduim"><img height="400" src="img/—Pngtree—education logo vector image_4092977.png" alt="" ></div>
         
             <H1>EDUCATION DETAILS</H1>
        
@@ -218,7 +439,7 @@ span{
     
     <div class="projec">
         <div id="app">
-            <img src="download.png" height="200" alt="">
+            <img src="img/download.png" height="200" alt="">
         </div>
 
         <div> <h1>MY PROJECTS</h1><BR></BR>
@@ -231,7 +452,7 @@ span{
     </div>
     <DIV class="contact">
         <div>
-            <img src="Contact Us, Office, Phone PNG and Vector with Transparent Background for Free Download.jpg" alt="">
+            <img src="img/Contact Us, Office, Phone PNG and Vector with Transparent Background for Free Download.jpg" alt="">
         </div>
        <h3>CONTACT INFORMATION</h3>
        <OL>
