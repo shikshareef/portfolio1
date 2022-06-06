@@ -1,1 +1,254 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin:auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style:none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+span{
+    color: orange;
+}
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+
+}
+.detel p{
+    color: #555;
+    line-height: 22px;
+
+}
+.detel a{
+    background-color: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    border: 5px solid;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom:0;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    text-replace: translatex(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover  .gril{
+    left: 45%;
+}
+.details{
+    margin-left: 160px;
+    border: 5px solid;
+    padding: 25px;
+    margin-right: 1200px;
+    border-radius: 1cm;
+    
+}
+.details h1{
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.details span{
+    color: red;
+}
+.educat{
+    margin-left: 160px;
+    border: 5px solid;
+    padding: 25px;
+    margin-right: 1200px;
+    border-radius: 1cm;
+    margin-top: 150px;
+
+}
+.educat h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+.projec{
+    margin-left: 160px;
+    border: 5px solid;
+    padding: 25px;
+    margin-right: 1200px;
+    border-radius: 1cm;
+    margin-top: 150px;
+
+
+}
+.projec h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+.contact{
+    margin-left: 160px;
+    border: 5px solid;
+    padding: 25px;
+    margin-right: 1200px;
+    border-radius: 1cm;
+    margin-top: 150px;
+
+}
+span{
+    color: red;
+}
+#eduim{
+   
+}
+.copyright{
+    border: 1px solid;
+    border-color: red;
+    margin-top: 100px;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="img/—Pngtree—team logo psd material_1649194.png" width="300" alt="" class="logo">
+            <ul>
+                <li><a href="0">HOME</a></li>
+                <li><a href="0">ABOUT</a></li>
+                <li><a href="0">PORTFILIO</a></li>
+                <li><a href="0">SERVICES</a></li>
+                <li><a href="0">HIRE ME</a></li>
+                
+            </ul>
+        </nav>
+       <div class="detel">
+           <h1>I'M  <span>SHAIK SHAREEF</span> </h1>
+           <p>THIS IS MY OFFFICIAL PORTFILIO TO SHOW ALL MY 
+               <br> <SPan id="title"> DETAILS AND WORK EXPERIENCE WEB DEVELOPMENT</SPan>
+           </p>
+           <a href="0">DOWNLOAD CV</a>
+       </div>
+       <div class="images">
+           <img src="img/118-1183053_orange-hexagon-png-background-transparent-geometric-shapes.png" class="shape" alt="">
+           <img src="img/Man-PNG-Image.png" class="girl">
+           
+       </div>
+    </div>
+    <div class="details">
+        <div>
+            <img  height="300" src="img/neathlemon's Photos, Drawings and Gif Saved Stickers.jpg" alt="">
+        </div>
+        <h1>MY DETAILS</h1>
+        <ol id="personal">
+            <li><span>NAME:</span> NAME: SHAIK SHAREEF</li>
+            <li><span> AGE:</span> 19</li>
+            <li> <span>PH_NO:</span> 6304372784</li>
+            <li><span>ADDRESS:</span> AP,KANDUKUR</li>
+            <li><span>SEX:</span> MALE</li>
+            <LI> <span>CURRENT ADRESS:</span> MANGALGIRI</LI>
+
+            
+        </ol>
+        
+    </div>
+    <div class="educat">
+        <div id="eduim"><img height="400" src="img/—Pngtree—education logo vector image_4092977.png" alt="" ></div>
+        
+            <H1>EDUCATION DETAILS</H1>
+       
+        <ol>
+            <li><span>1O TH : </span>SSC BOARD OF ANDHARA PRADESH</li>
+            <li><span> INTERMEDIATE :</span>HIGHER EDUCATION OF INTERMEDIATE</li>
+            <li> <span>CURRENT PROFFESION :</span> B.TECH 1ST YEAR</li>
+            <li><span>BRANCH :</span>COMPUTER SCIENCE OF ENGINEERING </li>
+            <li><span>COLLEGE NAME :</span>VIT AP GROUP OF INSTITUTIONS</li>
+            <LI> <span>COURSE DURATION  : </span> 4 YEARS</LI>
+        </ol>
+        </div>
+        
+    </div>
+    
+    <div class="projec">
+        <div id="app">
+            <img src="img/download.png" height="200" alt="">
+        </div>
+
+        <div> <h1>MY PROJECTS</h1><BR></BR>
+            <h3>1.)FIGMA</h3>
+            <P>I COMPLETED MY WHATS APP DESIGN ON FIGMA AND LEARNT MANY THINGS ABOUT THAT , DEVELOPING SUCH ONLINE FONTS AND IS VERY INTERESTING THING AND ALSO CREATED ONE WHATSAPP FONT WITH THE HELP OF FIGMA AND LEARNED IT. </P>
+        <br>
+        <h3>2.)PYTHON</h3>
+        <P>MASTERED AT PYTHON AND WORKED ON SOME MINI PROJECTS , AND MAKING TUTORIALS ON PYTHON ON QUORA AND SOLVING THE DOUBTS IN THE COMMENT SECTION</P></div>
+       
+    </div>
+    <DIV class="contact">
+        <div>
+            <img src="img/Contact Us, Office, Phone PNG and Vector with Transparent Background for Free Download.jpg" alt="">
+        </div>
+       <h3>CONTACT INFORMATION</h3>
+       <OL>
+           <LI> <SPAN>CONTACT US PH_NO:</SPAN> 12335352225</LI>
+           <LI> <SPAN>MAIL US :</SPAN>  shareef2847@gmail.com</LI>
+           <li><SPAN>FOLLOW US ON FACEBOOK:</SPAN> SHAREEF SHAIK</li>
+           <li><SPAN>SUBSCRIBE ON YOUTUBE:</SPAN> APNI KAKSHA</li>
+       </OL>
+    </DIV>
+    <div class="copyright">
+        <p> all rights are reserved under csi eapcet under the act of 2003 copy rights of india any unncessary modifications or copying the data will result in copy right and claims and be punished according to the law .all the credits are assigned to the owner of the website</p>
+    </div>
+ 
+
+
+
+  
+    
+</body>
+</html>
